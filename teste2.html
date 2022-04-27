@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8" />
+    <!-- <link rel="stylesheet" type="text/css" href="css.css"> -->
+</head>
+
+<style>
+    .borda {
+        border: 1px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fefefa;
+    }
+
+    .alinhamento {
+        margin: 50px;
+        margin-top: 20px;
+        border: 5px;
+        padding-top: 20px;
+    }
+</style>
+
+<body class="alinhamento">
+    <div class="borda">
+        <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+            <input type="hidden" name="accesskey" value="74ef80fd-a092-4ded-9aa6-3712148670e0">
+            <input type="hidden" name="redirect To" value="https://www.fockink.ind.br">
+
+            <label for="inputNome">Primeiro Nome:</label><br>
+            <input type="text" id="inputNome" name="name" required maxlength="25" minlength="2">
+            <span></span><br>
+
+            <label for="inputEmail">Endereço de Email: </label><br>
+            <input type="email" id="inputEmail" name="email" required maxlength="58"><br>
+            <span></span><br>
+
+            <label for="textAreaMensagem">Mensagem: </label><br>
+            <textarea name="message" id="textAreaMensagem" required maxlength="100"></textarea>
+            <span></span><br>
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </div>
+</body>
+
+</html>

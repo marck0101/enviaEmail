@@ -1,0 +1,33 @@
+.alinhamento {
+    margin: 50px;
+    margin-top: 20px;
+    border: 5px;
+    padding-top: 20px;
+}
+
+/* Daqui para baixo não é meu não kkkk          */
+
+.container {
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+
+.borda {
+    border: 1px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fefefa;
+}
+
+.borda2 {
+    margin: 0px auto;
+    padding: 2px;
+    background-color: #ffdead;
+}
